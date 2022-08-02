@@ -5,7 +5,7 @@ public without sharing class Box_ProjectController {
     public Box_ProjectController(ApexPages.StandardController stdController) {
         this.acct = (teamspirit__AtkJob__c)stdController.getRecord();
     }
-    
+  
    /**
      * コンストラクタ.
      * @param stdController 標準コントローラ
